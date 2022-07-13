@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alyssia C.</title>
     <link href="./style.css" rel="stylesheet">
-    <!-- FAVICON <link rel="icon" href=" "/>-->
+    <link rel="icon" href="./assets/img/favicon.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -15,7 +15,7 @@
 <body>
 
 <!-- NAVIGATION -->
-<nav class="navbar navbar-expand-md navbar-light">
+<nav class="navbar navbar-expand-md navbar-light" id="anchor">
     <h1><a href="#" class="navbar-brand navbar-title">Alyssia C.</a></h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +38,9 @@
 
 <!-- CONTENT -->
 <div class="container">
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#anchor" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></a>
+
     <!-- HERO SECTION -->
     <div id="hero-section" class="row section">
         <div class="col-xs-12 col-sm-12 col-md-8">
@@ -368,13 +371,13 @@
         <br>
         <form id="contact-form" action="https://formspree.io/f/mayvgkjv" method="POST">
             <div class="row">
-                <label class="col">Laissez moi votre adresse mail :
-                    <br><input class="col" type="email" name="email" placeholder="mary@popins.com">
+                <label class="col"><p class="required">*</p> Laissez moi votre adresse mail :
+                    <br><input required class="col" type="email" name="email" placeholder="mary@popins.com">
                 </label>
             </div>
             <div class="row">
-                <label class="col">Et un petit mot :
-                    <br><textarea class="col" name="message"
+                <label class="col"><p class="required">*</p> Et un petit mot :
+                    <br><textarea required class="col" name="message"
                               placeholder="Supercalifragilisticexpialidocious"></textarea>
                 </label>
             </div>
