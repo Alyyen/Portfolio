@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssia C.</title>
+    <link href="./style.css" rel="stylesheet">
+    <!-- FAVICON <link rel="icon" href=" "/>-->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <h1><a href="#" class="navbar-brand navbar-title">Alyssia C.</a></h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" id="menu-toggle"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#work-section">Projets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-section">À propos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+    <!-- HERO SECTION -->
+    <div id="hero-section" class="row section">
+        <div class="col-xs-12 col-sm-12 col-md-8">
+            <h2>Design & <br>Développement web</h2>
+            <div class="section-paragraph">Hello ! <br>Je suis Alyssia Colomar, développeuse full-stack et
+                webdesigner.<br>
+                J’aime proposer des solutions créatives grâce à ma casquette d’ux/ui, et j’aime également concevoir vos
+                interfaces grâce à mes compétences techniques.
+                <br>Ce portfolio est ici pour vous présenter quelques projets réalisés en 2022, ainsi que vous
+                permettre d’en apprendre un peu plus sur moi.
+            </div>
+        </div>
+
+        <img src="assets/img/hero-section-picture.png" alt="Photo Alyssia Colomar" class="col-xs-12 col-sm-12 col-md-4"
+             id="hero-section-picture"/>
+
+    </div>
+
+    <!-- WORK SECTION -->
+    <div id="work-section" class="row section">
+        <h3 class="section-title">Projets</h3>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Librairie Star Wars</h5>
+                    <p class="card-text">Front-end</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-01">Détails</a>
+                        </div>
+                    </div>
+                    <img src="assets/img/mini-swapi.png" alt="Star Wars website miniature" class="float-right"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Forum Cloudy</h5>
+                    <p class="card-text">Full-stack</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-02">Détails</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/mini-forum.png" alt="Forum website miniature" class="float-right"/>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Framework CSS</h5>
+                    <p class="card-text">Front-end</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-03">Détails</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/mini-frameworkcss.png" alt="Framework CSS website miniature" class="float-right"/>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card w-100 work-section-card">
+                <div class="card-body">
+                    <h5 class="card-title">Petites annonces</h5>
+                    <p class="card-text">Full-stack</p>
+                    <div class="bg-button">
+                        <div class="button teal-button">
+                            <a class="popin-button" href="#work-section-modal-04">Détails</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/mini-index.png" alt="Star Wars website miniature" class="float-right"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about-section" class="row section">
+        <h3 class="section-title" id="about-section-title">Parcours</h3>
+        <div class="about-section-margin">
+            <div class="card about-section-card col-lg-4 col-sm-6 mb-30">
+                <div class="about-section-bg-button">
+                    <button type="button" data-toggle="modal" data-target="#about-section-modal-01"
+                            class="button about-section-teal-button border-light">
+                        <div class="card-body">
+                            <h5 class="card-title card-button-title">Titre Certifié Concepteur Développeur Web</h5>
+                            <p class="card-text card-button-content card-text-center">Epitech (Lille)<br>2021 -
+                                2023</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card about-section-card col-lg-4 col-sm-6 mb-30">
+                <div class="about-section-bg-button">
+                    <button type="button" data-toggle="modal" data-target="#about-section-modal-02"
+                            class="button about-section-teal-button border-light">
+                        <div class="card-body">
+                            <h5 class="card-title card-button-title">Webdesigner - Rédactrice Web</h5>
+                            <p class="card-text card-button-content card-text-center">Groupe N.A.T. (Lesquin)<br>2020 -
+                                2021</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-sm-6 mb-30">
+                <div class="about-section-bg-button">
+                    <button type="button" data-toggle="modal" data-target="#about-section-modal-03"
+                            class="button about-section-teal-button border-light">
+                        <div class="card-body">
+                            <h5 class="card-title card-button-title">Titre Certifié de Webdesigner</h5>
+                            <p class="card-text card-button-content card-text-center">Webstart (Lille)<br>2019 -
+                                2020</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row about-button">
+        <div class="col">
+            <a id="download-cv-button" href="./assets/pdf/CV_Alyssia-Colomar.pdf" download="CV_Alyssia-Colomar.pdf"><i
+                    class="fa-solid fa-file-arrow-down color-orange"></i>&nbsp;&nbsp;Téléchargez mon CV !</a>
+        </div>
+    </div>
+
+    <!-- OTHER XP SECTION -->
+    <div id="other-xp-section" class="row section">
+        <h3 class="section-title" id="other-xp-section-title">Autres expériences</h3>
+        <div class="other-xp-section-margin">
+            <div class="card other-xp-section-card col-lg-4 mb-30">
+                <div class="other-xp-section-teal-button">
+                    <div class="card-body">
+                        <h5 class="card-title card-button-title">Service Civique</h5>
+                        <p class="card-text card-button-content">En 2019, j'ai eu l'opportunité d'être volontaire du
+                            Service Civique 8 mois pour l'accueil Frédéric Ozanam de la Société Saint-Vincent de Paul
+                            Lille. Cette mission m'a permis de réaliser des tâches administratives, mais également de
+                            faire beaucoup d'animations avec les usagers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card other-xp-section-card col-lg-4 mb-30">
+                <div class="other-xp-section-teal-button">
+                    <div class="card-body">
+                        <h5 class="card-title card-button-title">Bénévole</h5>
+                        <p class="card-text card-button-content">Mon intérêt pour le milieu du social ne s'est pas
+                            arrêté à mon Service Civique, j'ai également profité en 2019 de mon temps libre afin de
+                            devenir bénévole pour Utopia56 Lille en participant à des ateliers et en animant le stand à
+                            la braderie de Lille !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card other-xp-section-card col-lg-4 mb-30">
+                <div class="other-xp-section-teal-button">
+                    <div class="card-body">
+                        <h5 class="card-title card-button-title">Bénévole</h5>
+                        <p class="card-text card-button-content">Polymanga, convention suisse de pop culture, m'a
+                            accueilli en tant que staff pour ses éditions 2017, 2018 et 2019. J'ai pu y animer un studio
+                            photo 360°, un studio photo fond vert, et également aller à la rencontre des visiteurs
+                            lorsque je distribuais billets et plans.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOBBIES SECTION -->
+    <div id="hobbies-section" class="row section">
+        <h3 class="section-title">Est-ce que ça intéresse quelqu'un ?</h3>
+        <div class="col-xs-12 col-lg-6 section-paragraph">
+            <span>Parmi mes passe-temps les plus notables, nous avons :</span>
+            <ul>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-mug-saucer hobbies-section-list-icons"></i>
+                    </div>
+                    prendre un thé, mais l’oublier et le boire froid
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-film hobbies-section-list-icons"></i></div>
+                    regarder un film, mais s’endormir avant la fin
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-volume-low hobbies-section-list-icons"></i>
+                    </div>
+                    écouter de la musique, mais pas trop fort
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i
+                            class="fa-solid fa-person-running hobbies-section-list-icons"></i></div>
+                    courir, mais pas trop vite
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i
+                            class="fa-solid fa-book-bookmark hobbies-section-list-icons"></i></div>
+                    entamer un livre, mais ne jamais le finir
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i
+                            class="fa-solid fa-masks-theater hobbies-section-list-icons"></i></div>
+                    jouer au poker, mais perdre la première
+                </li>
+                <li>
+                    <div class="hobbies-section-list"><i class="fa-solid fa-leaf hobbies-section-list-icons"></i></div>
+                    et enfin, avoir une vie sociale, mais surtout dans Animal Crossing.
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-lg-6" id="hobbies-section-div-picture">
+            <img src="assets/img/study-anywhere.png" alt="Illustration hobbies" id="hobbies-section-picture"/>
+        </div>
+    </div>
+
+    <!-- WORK MODALS -->
+    <div id="work-section-modal-01" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Librairie Star Wars</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-swapi.gif" alt="Star Wars API call demonstration"
+                             class="work-section-demo"/>
+                    </div>
+                    <!--<p>Affichage des personnages et vaisseaux de l'univers Star Wars en appelant l'API libre <a
+                            href="https://swapi.dev/">SWAPI</a>.</p>
+                    <p>Projet réalisé en juillet 2022 dans le cadre de ma formation à Epitech Lille.</p>
+                    <p>Technologie(s) utilisée(s) :</p>
+                    <ul>
+                        <li>ReactJS</li>
+                    </ul>-->
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/cLoudy" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-section-modal-02" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Forum Cloudy</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-cloudy.gif" alt="Forum demonstration" class="work-section-demo"/>
+                    </div>
+                    <!--<p>Réalisation d'un forum permettant de poster un message de façon anonyme, ainsi que de commenter
+                        les posts existants triés par catégories.</p>
+                    <p>Projet réalisé en mars 2022 dans le cadre de ma recherche d'alternance.</p>
+                    <p>Technologie(s) utilisée(s) : </p>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                    </ul>-->
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/cLoudy" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-section-modal-03" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Framework CSS</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-frameworkcss.gif" alt="Framework demonstration"
+                             class="work-section-demo"/>
+                    </div>
+                    <!--
+                    <p>Création d'un framework css personnalisé, ayant des fonctionnalités similaires à Bootstrap</p>
+                    <p>Projet réalisé en janvier 2022 dans le cadre de ma formation à Epitech Lille.</p>
+                    <p>Technologie(s) utilisée(s) : </p>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Responsive</li>
+                        <li>SASS</li>
+                        <li>SCSS</li>
+                    </ul>-->
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/framework_css" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work-section-modal-04" class="overlay">
+        <div class="popin-bg">
+            <div class="popin popin-teal">
+                <h5>Petites annonces</h5>
+                <a class="close" href="#work-section"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popin-content">
+                    <div class="modal-picture">
+                        <img src="assets/gif/demo-freeads.gif" alt="Freeads demonstration"
+                             class="work-section-demo"/>
+                    </div>
+                    <!--
+                        <p>Création d'un site d'annonces entre particuliers.</p>
+                        <p>Projet réalisé en février 2022 dans le cadre de ma formation à Epitech Lille.</p>
+                        <p>Technologie(s) utilisée(s) : </p>
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Javascript</li>
+                            <li>Responsive</li>
+                            <li>Php</li>
+                        </ul>-->
+                </div>
+                <div class="popin-footer">
+                    <a href="https://github.com/Alyyen/framework_css" class="modal-icons"><i
+                            class="fa-brands fa-github-square popin-footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <!-- CONTACT SECTION -->
+    <div id="contact-section" class="section">
+        <h3 class="section-title">Vous vous projetez avec moi ?</h3>
+        <br>
+        <form id="contact-form" action="https://formspree.io/f/mayvgkjv" method="POST">
+            <div class="row">
+                <label class="col">Laissez moi votre adresse mail :
+                    <br><input class="col" type="email" name="email" placeholder="mary@popins.com">
+                </label>
+            </div>
+            <div class="row">
+                <label class="col">Et un petit mot :
+                    <br><textarea class="col" name="message"
+                              placeholder="Supercalifragilisticexpialidocious"></textarea>
+                </label>
+            </div>
+            <div class="row" id="contact-form-submit">
+                    <div class="contact-form-bg-submit">
+                        <button type="submit" id="contact-form-button">Envoyer</button>
+                    </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="contact-bg-button">
+                <div class="contact-button contact-teal-button">
+                    <a class="color-white" href="mailto:alyssia.colomar@gmail.com"><i
+                            class="fa-solid fa-paper-plane color-white"></i>&nbsp;&nbsp;Ou envoyez-moi un mail ici</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <div class="d-flex">
+            <a href="https://github.com/Alyyen"><i class="fa-brands fa-github-square footer-icons"></i></a>
+            <a href="https://www.linkedin.com/in/alyssia-colomar-dev/"><i
+                    class="fa-brands fa-linkedin footer-icons"></i></a>
+            <a href="https://www.notion.so/Alyssia-Colomar-5934aa7143814df4bec29d8124b00239"><img
+                    src="assets/img/notion-logo-1.svg" alt="Book Notion"
+                    class="footer-icons footer-icon-notion"/></a>
+        </div>
+    </footer>
+</div>
+
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<!-- BOOTSTRAP LIBRARY -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<!-- SCRIPTS -->
+<script src="https://kit.fontawesome.com/407b6e2a1f.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
